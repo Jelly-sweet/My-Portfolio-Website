@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Matsumoto Akari Portfolio Site</title>
+    <!-- Linking font awesome for icons (8行目のやつは「cdnjs」のfont awesomeのリンク) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- Loading screen -->
+    <div id="loading" class="loader">
+        <svg width="200" height="200">
+        <circle cx="100" cy="100" r="90"></circle>
+        </svg>
+        <div class="percentage" id="percent">0%</div>
+    </div>
+
+    <!-- background   -->
+    <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- header / navbar-->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text"><span>A</span>k<span>a</span>ri</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#hero" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#work" class="nav-link">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="mailto:akari.noumu@gmail.com" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://github.com/Jelly-sweet" target="_blank" rel="noopener noreferrer" class="nav-link">
+                        <img class="github-icon" src="/img/github-mark-white.png" alt="GitHub">
+                    </a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+    <main>
+        <!-- hero section -->
+        <section id="hero" class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title fade-item">Welcome to <br>My Portfolio Site</h2>
+                    <h3 class="subtitle fade-item">Matsumoto Akari portfolio site</h3>                    
+                    <div>
+                        <a href="#home" class="btn fade-item">View More</a>
+                    </div>
+                </div>
+                <div class="image-wrapper">
+                    <a href="/other-page/about.html">
+                        <img src="/img/main-img.png" alt="Hero" class="main-image fade-item">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Home Section -->
+        <section id="home" class="home-section">
+            <div class="section-content">
+                <h2>Bridging the Gap</h2>
+                <p class="titleJp">理想と現実をつなぐ</p>
+                <p class="descJp">
+                    コーポレートから個人サイトまで、目的に合わせたデザインを探求しながら、
+                    訪れた人の記憶に残る美しく心地よいサイトや、生活をほんの少し快適にするアプリなど、作りたいものは次々と湧いてきます。
+                    ですが、それに見合った実力と経験はまだ私には十分ではありません。
+                    思うままに自由に表現することが、エンジニアとしての理想であり、
+                    その理想と現実のギャップを埋めるこの過程こそ、私の生きがいです。
+                </p>
+                <p class="descEn">
+                    From corporate to personal websites, I explore purpose-driven designs,
+                    creating memorable, user-friendly sites and apps that make everyday life a little easier.
+                    Yet, I still lack the skills and experience to match them.
+                    My ideal as an engineer is to express myself freely,
+                    and bridging the gap between that ideal and reality gives my life meaning.
+                </p>
+            </div>
+        </section>
+
+
+         <!-- work section  -->
+        <section class="work-sectiuon" id="work">
+            <h2 class="section-title">Work <span> - 実績 - </span></h2>
+            <div class="section-content">
+                <div class="work-contents">
+                    <a href="../other-page/work1.html" class="works-link">
+                        <div class="work-img">
+                            <img src="/img/app-img.png" alt="app-img">
+                        </div>
+                    </a>
+                    <div class="detail">
+                        <h2 class="number">01</h2>
+                        <div class="desc">
+                            <p class="category">Application | 自主制作</p>
+                            <h3 class="name">Timer Application</h3>
+
+                            <p class="explain">20ルールタイマー、ポモドーロタイマー、及びストレッチと読書用のタイマーをイラストから作成し、1つにまとめたアプリケーションを制作しました。</p>
+                            <a href="../other-page/work1.html" class="btn">View More <span class="line"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-contents">
+                    <div class="detail">
+                        <h2 class="number">02</h2>
+                        <div class="desc">
+                            <p class="category">Portfolio | 自主制作</p>
+                            <h3 class="name">松本暁<br>ポートフォリオサイト</h3>
+
+                            <p class="explain">自分自身の転職活動用ポートフォリオサイトを制作しました。</p>
+                            <a href="../other-page/work2.html" class="btn">View More <span class="line"></span></a>
+                        </div>
+                    </div>
+                    <a href="../other-page/work2.html" class="works-link">
+                        <div class="work-img">
+                            <img src="/img/portfolioSite-img.png" alt="portfolio-img">
+                        </div>
+                    </a>
+                </div>
+                <div class="work-contents">
+                    <a href="../other-page/work3.html" class="works-link">
+                        <div class="work-img">
+                            <img src="/img/calix-img.png" alt="website-img">
+                        </div>
+                    </a>
+                    <div class="detail">
+                        <h2 class="number">03</h2>
+                        <div class="desc">
+                            <p class="category">Website | 自主制作</p>
+                            <h3 class="name">Noir Calix Lounge</h3>
+
+                            <p class="explain">架空の高級ラウンジカフェを想定したウェブサイトを制作しました。</p>
+                            <a href="../other-page/work3.html" class="btn">View More <span class="line"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <!-- About section -->
+         <section class="about-section" id="about">
+            <h2 class="section-title">About Me <span>- 私について -</span></h2>
+            <div class="section-content">
+                <div class="image-wrapper">
+                    <a href="/other-page/about.html">
+                        <img src="/img/main-img.png" alt="Hero" class="main-image">
+                    </a>
+                </div>
+                <div class="about-details">
+                    <h2>Matsumoto Akari</h2>
+                    <h3>松本 暁</h3>
+                    <p class="text">
+                        2000年生まれ、熊本出身。<br>
+                        好奇心旺盛で自己成長欲が強く、筋トレ・5時起き生活・外国語学習など日々挑戦を継続している。
+                        現在は、プログラミングを通じて自己表現の幅を広げ、エンジニアとして成長するために奮闘中。
+                    </p>
+                    <a class="btn" href="../other-page/about.html">View More</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- contact section -->
+        <section class="contact-section" id="contact">
+            <div class="contact">
+                <img class="contact-mail" src="/img/Mail.png" alt="Mail Icon">
+                <a href="mailto:akari.noumu@gmail.com" class="contact-btn" data-text="Contact Me">
+                    <span class="hover-text">Contact</span>Contact
+                </a>
+            </div>
+        </section>
+
+    </main>
+    
+     <!-- footer section -->
+    <footer class="footer">
+        <p>&copy; 2025 Akari Matsumoto Portfolio site</p>
+    </footer>
+    </footer>
+    <!-- ↓Linking custom script -->
+    <script src="../js/main.js"></script>
+
+   <div class="blur-overlay"></div> 
+</body>
+</html>

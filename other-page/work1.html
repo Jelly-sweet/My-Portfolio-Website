@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work | Matsumoto Akari Portfolio Site</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/work1.css">
+</head>
+<body>
+  <header class="video-header">
+    <!-- PC and Tablet video -->
+    <video autoplay muted loop playsinline class="video-pc">
+      <source src="/img/timerapp.mp4" type="video/mp4">
+    </video>
+    <!-- Phone size video -->
+     <video autoplay muted loop playsinline class="video-sp">
+        <source src="/img/timerapp-phone.mp4" type="video/mp4">
+     </video>
+    <div class="top">
+        <p>Application | 自主制作</p>
+        <h2 class="name">Timer App</h2>
+        <a href="https://github.com/Jelly-sweet/Custom-Timer" target="_blank" rel="noopener noreferrer" class="btn">Check code</a>
+    </div>
+  </header>
+
+  <main class="works-content">
+    <section class="outline">
+        <h2 class="title">Outline</h2>
+        <p class="subtitle">制作概要</p>
+        <div class="information">
+            <p>
+                20ルールタイマー（眼精疲労予防）・ポモドーロタイマー・読書用タイマー・ストレッチ用タイマーの4種類を一つにまとめたアプリを制作しました。
+                シンプルで見やすいUIを意識し、作業中でも残り時間を直感的に把握できるように設計。通知音やイラストの変化でタイマー終了をわかりやすく伝えています。
+                デザインやイラストも一から自作し、全体の世界観を統一しました。
+            </p>
+            <p>
+                担当内容：企画、デザイン、イラスト、コーディング<br>
+                製作期間：約2週間（2025.08.19-2025.09.05）<br>
+                使用技術：IbisPaint / Figma / HTML / CSS / JavaScript
+            </p>
+        </div>
+        <ul class="description">
+            <li class="fade-in">
+                <h3>コンセプト</h3>
+                <p>
+                    波に身を任せて生きるクラゲのように、無理せず自然体で続けられる時間を大切にしています。
+                    ポモドーロ・読書・ストレッチなど、心をゆるめながら集中できるツールです。
+                </p>
+            </li>            
+            <li class="fade-in">
+                <h3>目的</h3>
+                <p>
+                    自宅に時計がなく、スマホのタイマーを使うとついSNSなどを開いてしまうことが多かったため、スマホを見ずにPC上で作業時間を管理できるタイマーアプリを制作しました。                
+                </p>
+            </li>            
+
+        </ul>
+    </section>
+    <section class="design">
+        <h2 class="title">Design</h2>
+        <p class="subtitle">デザイン</p>
+        <div class="container">
+            <!-- app1 -->
+            <div class="app-contents">
+                <div class="app">
+                    <div class="app-img start">
+                        <p class="title">Start</p>
+                        <img src="/img/20-20-20-start.png" alt="20-20-20-start">
+                    </div>
+                    <div class="app-img finish">
+                        <p class="title">Finish</p>
+                        <img src="/img/20-20-20-finish.png" alt="20-20-20-finish">
+                    </div>
+                </div>
+            
+                <div class="desc">
+                    <p class="title">①20ルールタイマー</p>
+                    <p class="text">
+                        「20分の作業ごとに20秒間、20フィート先を見る」という一連の動作が、長時間の画面作業による目の疲れを防ぐのに効果的だといわれていることから、このタイマーを作成しました。
+                        作業中のイラストはPC作業の様子を、20秒間の休憩中のイラストは外を眺めている様子を描いています。
+                        また、リセットボタン・ポーズボタン・閉じるボタンを押すまで、この動作が繰り返されるようになっています。
+                    </p>
+                </div>
+            </div>
+            <!-- app2 -->
+            <div class="app-contents">
+                <div class="app">
+                    <div class="app-img start">
+                        <p class="title">Start</p>
+                        <img src="/img/Pomodoro-start.png" alt="Pomodoro-start">
+                    </div>
+                    <div class="app-img finish">
+                        <p class="title">Finish</p>
+                        <img src="/img/Pomodoro-finish.png" alt="Pomodoro-finish">
+                    </div>
+                </div>
+            
+                <div class="desc">
+                    <p class="title">②ポモドーロタイマー</p>
+                    <p class="text">
+                        25分の集中作業と5分間の休憩を繰り返す『時間管理術（タイムマネジメント法）』を取り入れたタイマーです。
+                        ドーナツが円状に回転し、25分経つと口元に到達し食べれるようになる演出にしています。
+                        また、リセットボタン・ポーズボタン・閉じるボタンを押すまで、この動作が繰り返されるようになっています。
+                    </p>
+                </div>
+            </div>
+            <!-- app3 -->
+            <div class="app-contents">
+                <div class="app">
+                    <div class="app-img start">
+                        <p class="title">Start</p>
+                        <img src="/img/Reading-start.png" alt="Readign-start">
+                    </div>
+                    <div class="app-img finish">
+                        <p class="title">Finish</p>
+                        <img src="/img/Readigng-finish.png" alt="Reading-finish">
+                    </div>
+                </div>
+            
+                <div class="desc">
+                    <p class="title">③読書タイマー</p>
+                    <p class="text">
+                        普段から1日10分の読書時間を確保するよう心がけていることから、読書用のタイマーを制作しました。
+                        リラックスして読書している様子をイラストにしています。 
+                        1回限りのカウントダウン機能となっており、再度使用する場合はスタートボタンを押すことで再びタイマーが起動します。
+                    </p>
+                </div>
+            </div>
+            <!-- app4 -->
+            <div class="app-contents">
+                <div class="app">
+                    <div class="app-img start">
+                        <p class="title">Start</p>
+                        <img src="/img/Stretching-start.png" alt="Stretching-start">
+                    </div>
+                    <div class="app-img finish">
+                        <p class="title">Finish</p>
+                        <img src="/img/Stretching-finish.png" alt="Stretching-finish">
+                    </div>
+                </div>
+            
+                <div class="desc">
+                    <p class="title">④ストレッチタイマー</p>
+                    <p class="text">
+                        就寝前のストレッチ用として作成しました。
+                        ストレッチしているイラストから始まり、終了時は寝ているイラストに切り替わるようにしています。
+                        1回限りのカウントダウン機能となっており、再度使用する場合はスタートボタンを押すことで再びタイマーが起動します。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+  <footer>
+    <a href="/other-page/work3.html" class="prev">Previous</a>
+    <a href="../main-page/index.html" class="back-home">Back Home</a>
+    <a href="/other-page/work2.html" class="next">Next</a>
+  </footer>
+
+  <script src="../js/sub.js"></script>
+</body>
+</html>
